@@ -1,0 +1,5 @@
+'atom-text-editor:not([mini])':
+  'ctrl-delete': 'editor:delete-line'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-alt-l': 'auto-indent:apply'
